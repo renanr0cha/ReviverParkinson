@@ -1,25 +1,21 @@
 {
+  "name": "Reviver",
+  "displayName": "Reviver",
   "expo": {
-    "name": "RevParkinson",
-    "slug": "RevParkinson",
+    "name": "Reviver",
+    "slug": "reviver",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "reviver",
     "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
+      "backgroundColor": "#f0f0f0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.reviver"
     },
     "web": {
       "bundler": "metro",
@@ -27,10 +23,23 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/pill-icon.png",
+          "color": "#F5A648",
+          "sounds": [
+            "./assets/alarmsound.wav",
+            "./assets/notification.mp3"
+          ]
+        }
+      ],
       "expo-router"
     ],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "eas": {
+        "projectId": "c9965aa4-91a7-4152-bb90-8ca05a26af34"
+      }
     }
   }
 }
