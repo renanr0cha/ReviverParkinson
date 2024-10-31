@@ -120,7 +120,7 @@ Project Link: [https://github.com/renanr0cha/reviver](https://github.com/renanr0
 [license-url]: https://github.com/renanr0cha/reviver/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/renanr0cha
-[product-screenshot]: reviverss.jpg
+[product-screenshot]: ./assets/reviverss.jpg
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [ReactNative]: https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
