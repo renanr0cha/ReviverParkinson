@@ -13,7 +13,7 @@
 <br />
 <div align="center" style="background-color: white">
   <a href="https://github.com/renanr0cha/reviver">
-    <img src="./assets/logoreviver" alt="Logo" >
+    <img src="./assets/logoreviver.png" alt="Logo" >
   </a>
 
 <h3 align="center">Project RevParkinson</h3>
