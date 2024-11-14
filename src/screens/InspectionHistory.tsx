@@ -31,7 +31,7 @@ export function InspectionHistory() {
       <Header title={"Progresso"} />
       <View flex={1} width="100%" height="100%">
         <WebView source={{
-          uri: `http://reviver.cubecode.com.br/chart/inspection/${uuid}`
+          uri: `https://reviver.cubecode.com.br/chart/inspection/${uuid}`
         }}/>
       </View>
     </>
