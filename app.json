@@ -1,10 +1,10 @@
 {
   "name": "Reviver",
-  "displayName": "Reviver",
+  "displayName": "RevParkinson",
   "expo": {
     "name": "Reviver",
     "slug": "reviver",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "scheme": "reviver",
     "userInterfaceStyle": "automatic",
@@ -12,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#f0f0f0"
+      "backgroundColor": "#FEF2CD"
     },
     "android": {
       "package": "com.reviver"
