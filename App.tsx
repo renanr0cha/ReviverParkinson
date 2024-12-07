@@ -14,12 +14,7 @@ import { Loading } from './src/components/Loading';
 import { AuthProvider } from "./src/hooks/auth";
 import { Routes } from "./src/routes";
 import { verifyIfInspectionNotificationsAreSet } from "./src/services/verifyIfIspectionNotificationsAreSet";
-// import { testNotificationSound } from "./src/services/testNotificationSound";
-
-const config = {
-  enableStaticRendering: false,
-  enableServerRendering: false
-};
+//import { testNotificationSound } from "./src/services/testNotificationSound";
 
 export default function App() {
   const getNotificationListener = useRef<Subscription>()
